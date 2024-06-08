@@ -1,0 +1,25 @@
+/*toda a pag*/
+*{
+    margin: 0;
+}
+/*toda a pag*/
+/*header*/
+#header{
+    background-color: #000000;
+    opacity: 40%;
+}
+#logo{
+    color: #ffffff;
+}
+#nav_links{
+    text-align: end;
+    margin-top: -23px;
+}
+.links{
+    text-decoration: none;
+    color: #ffffff;
+}
+#strong_link{
+    background-color: rgb(129, 129, 129);
+}
+/*header*/
