@@ -2,31 +2,39 @@
 * {
     margin: 0;
 }
+
 /*toda a pag*/
 /*header*/
 #header {
     background-color: #000000;
     opacity: 40%;
 }
+
 #logo {
     color: #ffffff;
 }
+
 #nav_links {
     text-align: end;
     margin-top: -23px;
 }
+
 .links {
     text-decoration: none;
     color: #ffffff;
 }
+
 .links:hover {
     color: #ff0000;
-   
+
 }
+
 #strong_link {
     background-color: rgb(129, 129, 129);
 }
+
 /*header*/
+
 /*main*/
 /*produtos*/
 #div_texto_produto {
@@ -36,112 +44,202 @@
     width: 200px;
     left: 50%;
     top: 8%;
-    transform: translateX(-50%);/*transform vai centralizar a div*/
+    transform: translateX(-50%);
+    /*transform vai centralizar a div*/
 }
 
 #texto_produto {
     color: #ffffff;
 }
-#produtos{
+
+#produtos {
     background-color: #D9D9D9;
     position: absolute;
     width: 480px;
     height: 173px;
     left: 50%;
     top: 11.6%;
-    transform: translateX(-50%);/*transform vai centralizar a div*/
+    transform: translateX(-50%);
+    /*transform vai centralizar a div*/
 }
-.img_produtos{
+
+.img_produtos {
     height: 146px;
     width: 118px;
     padding-left: 30px;
     padding-top: 12px;
 }
-.links_produtos{
+
+.links_produtos {
     text-decoration: none;
     color: #ffffff;
     position: relative;
     top: -30px;
-    background-color: rgb(0, 0, 0 , 0.6);
+    background-color: rgb(0, 0, 0, 0.6);
     filter: blur(0, 0, 0, 50%);
 }
-#links_produtos01{
+
+#links_produtos01 {
     position: relative;
     left: 30px;
     font-size: 15.1px;
 }
-#links_produtos02{
+
+#links_produtos02 {
     position: relative;
     left: 60px;
     font-size: 15.1px;
 }
-#links_produtos03{
+
+#links_produtos03 {
     position: relative;
     left: 90px;
     font-size: 15.1px;
 }
+
 /*produtos*/
-/*eventos*/
-#div_Eventos_cocacola{
+
+/*sobre nós*/
+#div_sobrenos {
     text-align: center;
     background-color: #9C9C9C;
-    color: #000000;
+    color: #ffffff;
+    position: absolute;
+    width: 200px;
+    left: 50.5%;
+    top: 46%;
+    /*nome evento*/
+}
+
+#div_sobrenos_text02 {
+    text-align: center;
+    background-color: #D9D9D9;
+    color: #ffffff;
+    position: absolute;
+    left: 46.7%;
+    top: 49%;
+    width: 277px;
+    height: 131px;
+}
+
+#img_sobrenos {
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    /*isso vai ate a metade da pag*/
+    margin-left: -240px;
+    /*aqui eu vou adianta sem mecher na porcentagem*/
+}
+
+/*sobre nós*/
+
+/*eventos*/
+#div_Eventos_cocacola {
+    text-align: center;
+    background-color: #9C9C9C;
+    color: #ffffff;
     position: absolute;
     width: 200px;
     left: 50%;
-    top: 50%;
-    transform: translateX(-50%);/*transform vai centralizar a div*/
+    top: 81%;
+    /*nome evento*/
+    transform: translateX(-50%);
+    /*transform vai centralizar a div*/
 }
 
-#ul_img_evento{ 
-   position: absolute;
-   left: 48.5%;
-   top: 55%;
-   transform: translateX(-50%);/*transform vai centralizar a div*/
+#ul_img_evento {
+    position: absolute;
+    left: 48.5%;
+    top: 86%;
+    transform: translateX(-50%);
+    /*transform vai centralizar a div*/
 }
-.img_evento{
+
+.img_evento {
     height: 146px;
     width: 118px;
-    
+
 }
-
-/*
-  #galeria{
-    background-color: #414141;
-    color: #c300ff;
-    text-align: center;
-    width: 80%;
-    padding-left: -20%;
-    margin-left: 10%;
-    margin-top: 2px;
-  }
-  #fotos_galeria{
-           display: flex;
-              flex-wrap: wrap;
-              justify-content: space-around;
-              padding-left: 4%;
-              margin-left: -24px;
-          }
-  */
-
-
-
-
 
 /*eventos*/
 
+/*equipe*/
 
+.img_equipe {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
 
+#img_ceo {
+    position: absolute;
+    left: 36.2%;
+    top: 128%;
+    transform: translate(-50%, -50%);
+}
 
+#div_equipe_ceo {
+    background-color: #D9D9D9;
+    color: #000000;
+    width: -80%;
+    max-width: 356px;
+    position: absolute;
+    left: 41.6%;
+    top: 120%;
+    font-size: 12px;
+}
 
+#equipe_ceo {
+    background-color: #D9D9D9;
+    color: #ffffff;
+    position: absolute;
+    top: 135%;
+    left: 36.1%;
+    transform: translate(-50%, -50%);
+}
 
+#equipe_ceo02 {
+    background-color: #D9D9D9;
+    color: #ffffff;
+    position: absolute;
+    top: 140%;
+    left: 34.5%;
+}
 
+/*equipe*/
 /*main*/
 
-/*para o footer:
-  text-align: center;
-    position: fixed;
-    bottom: 0;
+/*footer*/
+
+#footer {
+    position: absolute;
     width: 100%;
-    left: 0;
-    */
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    top: 150%;
+    height: 220px;
+}
+
+#img_logo_footer {
+    width: 100px;
+    margin-top: 20px;
+}
+
+#contato {
+    text-align: start;
+}
+
+#linker_footer {
+    text-align: end;
+    margin-top: -110px;
+}
+
+#endereco {
+    text-align: center;
+    margin-top: -12px
+}
+
+/*footer*/
