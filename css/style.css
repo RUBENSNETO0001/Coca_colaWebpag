@@ -19,6 +19,10 @@
     text-decoration: none;
     color: #ffffff;
 }
+.links:hover {
+    color: #ff0000;
+   
+}
 #strong_link {
     background-color: rgb(129, 129, 129);
 }
@@ -76,10 +80,57 @@
     left: 90px;
     font-size: 15.1px;
 }
-
-
-
 /*produtos*/
+/*eventos*/
+#div_Eventos_cocacola{
+    text-align: center;
+    background-color: #9C9C9C;
+    color: #000000;
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);/*transform vai centralizar a div*/
+}
+
+#ul_img_evento{ 
+   position: absolute;
+   left: 48.5%;
+   top: 55%;
+   transform: translateX(-50%);/*transform vai centralizar a div*/
+}
+.img_evento{
+    height: 146px;
+    width: 118px;
+    
+}
+
+/*
+  #galeria{
+    background-color: #414141;
+    color: #c300ff;
+    text-align: center;
+    width: 80%;
+    padding-left: -20%;
+    margin-left: 10%;
+    margin-top: 2px;
+  }
+  #fotos_galeria{
+           display: flex;
+              flex-wrap: wrap;
+              justify-content: space-around;
+              padding-left: 4%;
+              margin-left: -24px;
+          }
+  */
+
+
+
+
+
+/*eventos*/
+
+
 
 
 
