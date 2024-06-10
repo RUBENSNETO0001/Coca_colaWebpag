@@ -5,18 +5,29 @@
 
 /*toda a pag*/
 /*header*/
+/*banner*/
+#banner{
+    width: 100%;
+    margin-top: -36px;
+    height: 700px;
+    
+}
+/*banner*/
 #header {
     background-color: #000000;
     opacity: 40%;
+    color: #ffffff;
 }
 
 #logo {
     color: #ffffff;
+    opacity: 100%;
 }
 
 #nav_links {
     text-align: end;
     margin-top: -23px;
+    opacity: 100%;
 }
 
 .links {
@@ -43,13 +54,13 @@
     position: absolute;
     width: 200px;
     left: 50%;
-    top: 8%;
+    top: 93.2%;
     transform: translateX(-50%);
     /*transform vai centralizar a div*/
 }
 
 #texto_produto {
-    color: #ffffff;
+    color: #000000;
 }
 
 #produtos {
@@ -58,7 +69,7 @@
     width: 480px;
     height: 173px;
     left: 50%;
-    top: 11.6%;
+    top: 96.6%;
     transform: translateX(-50%);
     /*transform vai centralizar a div*/
 }
@@ -103,21 +114,21 @@
 #div_sobrenos {
     text-align: center;
     background-color: #9C9C9C;
-    color: #ffffff;
+    color: #000000;
     position: absolute;
     width: 200px;
     left: 50.5%;
-    top: 46%;
+    top: 149%;
     /*nome evento*/
 }
 
 #div_sobrenos_text02 {
     text-align: center;
     background-color: #D9D9D9;
-    color: #ffffff;
+    color: #000000;
     position: absolute;
-    left: 46.7%;
-    top: 49%;
+    left: 46.9%;
+    top: 152.4%;
     width: 277px;
     height: 131px;
 }
@@ -126,7 +137,7 @@
     height: 150px;
     width: 200px;
     position: absolute;
-    top: 46%;
+    top: 149%;
     left: 50%;
     /*isso vai ate a metade da pag*/
     margin-left: -240px;
@@ -138,31 +149,33 @@
 /*eventos*/
 #div_Eventos_cocacola {
     text-align: center;
-    background-color: #9C9C9C;
+    background-color: #ff0000;
     color: #ffffff;
     position: absolute;
     width: 200px;
     left: 50%;
-    top: 81%;
-    /*nome evento*/
+    top: 190%;
     transform: translateX(-50%);
     /*transform vai centralizar a div*/
 }
 
 #ul_img_evento {
-    position: absolute;
-    left: 48.5%;
-    top: 86%;
-    transform: translateX(-50%);
-    /*transform vai centralizar a div*/
+    position: relative;
+    display: flex;
+    margin-top: -13%;
+    margin-left: 340px;
 }
 
 .img_evento {
     height: 146px;
     width: 118px;
-
 }
-
+#red{
+    position: relative;
+    margin-top: 33%;
+    border: 100px solid;
+    border-color: #ff0000;
+}
 /*eventos*/
 
 /*equipe*/
@@ -176,7 +189,7 @@
 #img_ceo {
     position: absolute;
     left: 36.2%;
-    top: 128%;
+    top: 257%;
     transform: translate(-50%, -50%);
 }
 
@@ -187,7 +200,7 @@
     max-width: 356px;
     position: absolute;
     left: 41.6%;
-    top: 120%;
+    top:249%;
     font-size: 12px;
 }
 
@@ -195,7 +208,7 @@
     background-color: #D9D9D9;
     color: #ffffff;
     position: absolute;
-    top: 135%;
+    top: 264%;
     left: 36.1%;
     transform: translate(-50%, -50%);
 }
@@ -204,7 +217,7 @@
     background-color: #D9D9D9;
     color: #ffffff;
     position: absolute;
-    top: 140%;
+    top: 267%;
     left: 34.5%;
 }
 
@@ -219,8 +232,8 @@
     background-color: #000000;
     color: #ffffff;
     text-align: center;
-    top: 150%;
-    height: 220px;
+    top: 500%;
+    height: 229px;
 }
 
 #img_logo_footer {
@@ -239,7 +252,10 @@
 
 #endereco {
     text-align: center;
-    margin-top: -12px
+    margin-top: -2px
 }
 
 /*footer*/
+/*posisão dos quadro*/
+
+/*posisão dos quadro*/
