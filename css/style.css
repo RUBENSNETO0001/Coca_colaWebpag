@@ -6,12 +6,13 @@
 /*toda a pag*/
 /*header*/
 /*banner*/
-#banner{
+#banner {
     width: 100%;
     margin-top: -36px;
     height: 700px;
-    
+
 }
+
 /*banner*/
 #header {
     background-color: #000000;
@@ -160,22 +161,18 @@
 }
 
 #ul_img_evento {
-    position: relative;
+    position: absolute;
     display: flex;
-    margin-top: -13%;
-    margin-left: 340px;
+    margin-top: 40%;
+    left: 48.2%;
+    transform: translateX(-50%);
 }
 
 .img_evento {
     height: 146px;
     width: 118px;
 }
-#red{
-    position: relative;
-    margin-top: 33%;
-    border: 100px solid;
-    border-color: #ff0000;
-}
+
 /*eventos*/
 
 /*equipe*/
@@ -188,40 +185,39 @@
 
 #img_ceo {
     position: relative;
-    margin-left: 30%;
-    margin-top: 17.5%;
+    margin-left: 38%;
+    margin-top: 60%;
     transform: translate(-50%, -50%);
-}
-
-#div_equipe_ceo {
-    background-color: #D9D9D9;
-    color: #000000;
-    width: -80%;
-    max-width: 356px;
-    position: relative;
-    left: 41.6%;
-margin-top: -161px;
-    font-size: 12px;
 }
 
 #equipe_ceo {
     background-color: #D9D9D9;
-    color: #ffffff;
+    color: #000000;
     position: relative;
     margin-top: -3%;
-    margin-left: 30%;
+    margin-left: 38%;
     transform: translate(-50%, -50%);
     width: 122px;
 }
 
 #equipe_ceo02 {
     background-color: #D9D9D9;
-    color: #ffffff;
+    color: #000000;
     position: relative;
     top: 278%;
-    left: 29%;
+    left: 37.5%;
     transform: translateX(-28%);
     width: 46px;
+}
+
+#div_equipe_ceo {
+    background-color: #D9D9D9;
+    color: #000000;
+    max-width: 330px;
+    position: relative;
+    margin-left: 43%;
+    margin-top: -160px;
+    font-size: 12.8px;
 }
 
 /*equipe*/
@@ -235,7 +231,7 @@ margin-top: -161px;
     background-color: #000000;
     color: #ffffff;
     text-align: center;
-    top: 500%;
+    top: 400%;
     height: 229px;
 }
 
