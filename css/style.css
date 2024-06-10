@@ -187,9 +187,9 @@
 }
 
 #img_ceo {
-    position: absolute;
-    left: 36.2%;
-    top: 257%;
+    position: relative;
+    margin-left: 30%;
+    margin-top: 17.5%;
     transform: translate(-50%, -50%);
 }
 
@@ -198,27 +198,30 @@
     color: #000000;
     width: -80%;
     max-width: 356px;
-    position: absolute;
+    position: relative;
     left: 41.6%;
-    top:249%;
+margin-top: -161px;
     font-size: 12px;
 }
 
 #equipe_ceo {
     background-color: #D9D9D9;
     color: #ffffff;
-    position: absolute;
-    top: 264%;
-    left: 36.1%;
+    position: relative;
+    margin-top: -3%;
+    margin-left: 30%;
     transform: translate(-50%, -50%);
+    width: 122px;
 }
 
 #equipe_ceo02 {
     background-color: #D9D9D9;
     color: #ffffff;
-    position: absolute;
-    top: 267%;
-    left: 34.5%;
+    position: relative;
+    top: 278%;
+    left: 29%;
+    transform: translateX(-28%);
+    width: 46px;
 }
 
 /*equipe*/
