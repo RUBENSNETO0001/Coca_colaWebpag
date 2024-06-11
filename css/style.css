@@ -293,6 +293,27 @@
 }
 
 /*equipe*/
+/*FAQ*/
+#div_faq{
+    text-align: center;
+    background-color: #555555;
+    color: #ff0000;
+    position: relative;
+    width: 200px;
+    margin-left: 50%;
+    margin-top: 10%;
+    transform: translateX(-50%);
+    /*transform vai centralizar a div*/
+}
+#fieldqset01{
+      width: 20%;
+      background-color: #3d3d3d;
+      color: #ffffff;
+}
+#div_pergunta{
+    color: #ff0000;
+}
+/*FAQ*/
 /*main*/
 
 /*footer*/
