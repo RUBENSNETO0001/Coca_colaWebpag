@@ -275,8 +275,6 @@
     transform: translateX(-50%);
 }
 /*estoque*/
-
-
 #equipe_programou{
     background-color: #9C9C9C;
     width: 105px;
@@ -291,7 +289,6 @@
     margin-left: 50%;
     transform: translateX(-50%);
 }
-
 /*equipe*/
 /*FAQ*/
 #div_faq{
@@ -305,13 +302,45 @@
     transform: translateX(-50%);
     /*transform vai centralizar a div*/
 }
-#fieldqset01{
-      width: 20%;
-      background-color: #3d3d3d;
-      color: #ffffff;
-}
-#div_pergunta{
+.div_pergunta{
     color: #ff0000;
+    background-color: #888888;
+    text-align: center;
+}
+.text_faq{
+    color: #D9D9D9;
+    background-color: #555555;
+    height: 100px;
+}
+.pergunta{
+    width: 300px;
+    display: inline-grid;
+    margin-left: 10px;
+    margin-top: 20px;
+    position: relative;
+    left: 15%;
+    transform: translateX(2%);
+}
+
+.pergunta02{
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
+    position: relative;
+    left: 15%;
+    transform: translateX(2%);
+    display: inline-table;
+}
+#text_faq02{
+    color: #D9D9D9;
+    background-color: #555555;
+    height: 82px;
+}
+.div_pergunta02{
+    color: #ff0000;
+    background-color: #888888;
+    text-align: center;
+
 }
 /*FAQ*/
 /*main*/
@@ -319,12 +348,12 @@
 /*footer*/
 
 #footer {
-    position: absolute;
+    position: relative;
     width: 100%;
     background-color: #000000;
     color: #ffffff;
     text-align: center;
-    top: 800%;
+    margin-top: 10%;
     height: 229px;
 }
 
