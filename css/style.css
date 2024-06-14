@@ -13,6 +13,27 @@
 
 }
 
+#text_banner {
+    color: #ff0000;
+    position: absolute;
+    left: 80%;
+    top: 30%;
+    font-size: 40px;
+}
+#text_banner02 {
+    color: #ff0000;
+    position: absolute;
+    left: 85%;
+    top: 44.5%;
+    font-size: 40px;
+}
+#text_banner03 {
+    color: #ff0000;
+    position: absolute;
+    left: 90%;
+    top: 30%;
+    font-size: 40px;
+}
 /*banner*/
 #header {
     background-color: #000000;
@@ -148,13 +169,14 @@
 /*sobre nós*/
 
 /*eventos*/
-#produto{
+#produto {
     background-color: #ff0000;
     border: #ff0000 solid;
     height: 200px;
     margin-top: 516px;
-    
+
 }
+
 #div_Eventos_cocacola {
     text-align: center;
     background-color: #ff0000;
@@ -168,21 +190,25 @@
 }
 
 #ul_img_evento {
-    text-align: center; /* Centraliza horizontalmente */
-      position: relative;
-   margin-top: -180px;
+    text-align: center;
+    /* Centraliza horizontalmente */
+    position: relative;
+    margin-top: -180px;
 }
 
 .img_evento {
-    display: inline-block; /* Permite que as imagens fiquem uma ao lado da outra */
-    margin: 0 10px; /* Espaçamento entre as imagens */
+    display: inline-block;
+    /* Permite que as imagens fiquem uma ao lado da outra */
+    margin: 0 10px;
+    /* Espaçamento entre as imagens */
     height: 146px;
     width: 118px;
 }
+
 /*eventos*/
 
 /*equipe*/
-#div_equipe{
+#div_equipe {
     text-align: center;
     background-color: #ff0000;
     color: #ffffff;
@@ -193,6 +219,7 @@
     transform: translateX(-50%);
     /*transform vai centralizar a div*/
 }
+
 .img_equipe {
     height: 200px;
     width: 200px;
@@ -200,98 +227,110 @@
 }
 
 /*CEO*/
-#img_ceo{
+#img_ceo {
     margin-top: 30px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
-#equipe_ceo{
+
+#equipe_ceo {
     background-color: #9C9C9C;
     width: 124px;
     margin-top: -26px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
-#equipe_ceo02{
+
+#equipe_ceo02 {
     background-color: #9C9C9C;
     width: 41px;
     margin-top: 10px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
-#div_equipe_ceo{
+
+#div_equipe_ceo {
     background-color: #9C9C9C;
     width: 400px;
     margin-top: 10px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
+
 /*CEO*/
 /*gerente financeiro*/
-#equipe_gerente{
+#equipe_gerente {
     background-color: #9C9C9C;
     width: 118px;
     margin-top: -26px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
-#equipe_gerente02{
+
+#equipe_gerente02 {
     background-color: #9C9C9C;
     width: 150px;
     margin-top: 10px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
+
 /*gerente financeiro*/
 /*Gerente de Estoque*/
-#equipe_gerente01{
+#equipe_gerente01 {
     background-color: #9C9C9C;
     width: 99px;
     margin-top: -26px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
-#equipe_gerente03{
+
+#equipe_gerente03 {
     background-color: #9C9C9C;
     width: 160px;
     margin-top: 10px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
+
 /*Gerente de Estoque*/
 /*estoque*/
-#equipe_entregador{
+#equipe_entregador {
     background-color: #9C9C9C;
     width: 115px;
     margin-top: -26px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
-#equipe_entregador02{
+
+#equipe_entregador02 {
     background-color: #9C9C9C;
     width: 95px;
     margin-top: 10px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
+
 /*estoque*/
-#equipe_programou{
+#equipe_programou {
     background-color: #9C9C9C;
     width: 105px;
     margin-top: -26px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
-#equipe_programou02{
+
+#equipe_programou02 {
     background-color: #9C9C9C;
     width: 109px;
     margin-top: 10px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
+
 /*equipe*/
 /*FAQ*/
-#div_faq{
+#div_faq {
     text-align: center;
     background-color: #555555;
     color: #ff0000;
@@ -302,17 +341,20 @@
     transform: translateX(-50%);
     /*transform vai centralizar a div*/
 }
-.div_pergunta{
+
+.div_pergunta {
     color: #ff0000;
     background-color: #888888;
     text-align: center;
 }
-.text_faq{
+
+.text_faq {
     color: #D9D9D9;
     background-color: #555555;
     height: 100px;
 }
-.pergunta{
+
+.pergunta {
     width: 300px;
     display: inline-grid;
     margin-left: 10px;
@@ -322,7 +364,7 @@
     transform: translateX(2%);
 }
 
-.pergunta02{
+.pergunta02 {
     width: 300px;
     margin-left: 10px;
     margin-top: 20px;
@@ -331,17 +373,20 @@
     transform: translateX(2%);
     display: inline-table;
 }
-#text_faq02{
+
+#text_faq02 {
     color: #D9D9D9;
     background-color: #555555;
     height: 82px;
 }
-.div_pergunta02{
+
+.div_pergunta02 {
     color: #ff0000;
     background-color: #888888;
     text-align: center;
 
 }
+
 /*FAQ*/
 /*main*/
 
