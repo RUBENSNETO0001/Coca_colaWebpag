@@ -170,7 +170,7 @@
 
 /*eventos*/
 #produto {
-    background-color: #ff0000;
+    background-color: #e40414;
     border: #ff0000 solid;
     height: 200px;
     margin-top: 516px;
@@ -205,6 +205,10 @@
     width: 118px;
 }
 
+#img_decoracao{
+    width: 100%;
+    position: relative;
+}
 /*eventos*/
 
 /*equipe*/
@@ -333,7 +337,7 @@
 #div_faq {
     text-align: center;
     background-color: #555555;
-    color: #ff0000;
+    color: #e40414;
     position: relative;
     width: 200px;
     margin-left: 50%;
@@ -343,7 +347,7 @@
 }
 
 .div_pergunta {
-    color: #ff0000;
+    color:#e40414;
     background-color: #888888;
     text-align: center;
 }
@@ -381,7 +385,7 @@
 }
 
 .div_pergunta02 {
-    color: #ff0000;
+    color:#e40414;
     background-color: #888888;
     text-align: center;
 
